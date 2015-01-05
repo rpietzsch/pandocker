@@ -1,6 +1,7 @@
 *.aux
 *.log
 *.bib
+*.blg
 index.pdf
 index.docx
 index.odt
