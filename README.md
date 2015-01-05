@@ -18,13 +18,12 @@
 
 - there are local and docker-container targets
 - container targets are suffixed with "-d"
-- 
-- ``make build-d``
-- ``make pdf-d``
-- ``make bib-d``
-- ``make docx-d``
-- ``make odt-d``
-- ``make open``
+	- ``make build-d``
+	- ``make pdf-d``
+	- ``make bib-d``
+	- ``make docx-d``
+	- ``make odt-d``
+	- ``make open``
 
 ## build docker container
 
