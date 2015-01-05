@@ -10,7 +10,7 @@
 
 - add / write your markdown in md/*.md files
 - define packages / styles / tocs in index.tex
-- build(-d) creates tex/*.tex files from each .md``
+- build(-d) creates tex/*.tex files from each .md
 - review Makefile
 - container targets pull docker container from hub.docker.com automatically upon first call (see below for local build instruction)
 
