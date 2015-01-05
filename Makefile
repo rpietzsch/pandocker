@@ -13,10 +13,10 @@ pdf: builddir $(SOURCES)
 	xelatex index.tex
 
 docx: pdf
-	$(P) -f latex -t docx index.tex -o index.docx
+	pandoc -f latex -t docx index.tex -o index.docx
 
 odt: pdf
-	$(P) -f latex -t odt index.tex -o index.odt
+	pandoc -f latex -t odt index.tex -o index.odt
 
 builddir:
 	mkdir -p $(TEX_FOLDER)
